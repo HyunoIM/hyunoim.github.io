@@ -1,7 +1,7 @@
 ---
  title: "Pytorch"
  layout: archive
- permalink: /pytorch
+ permalink: pytorch
  author_profile: true
  sidebar:
    nav: "docs"
