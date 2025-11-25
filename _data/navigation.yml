@@ -23,5 +23,7 @@ sidebar-category:
       - title: "cs231n"
         url:  "/cs231n"
   - title: "Projects"
+      - title: "ECG(심전도) Chagas disease detection"
+        url:  "/ECGchagas"
       #- title: "카테고리C"
       #  url:  "/CategoryC"
