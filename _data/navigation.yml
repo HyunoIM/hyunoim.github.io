@@ -25,6 +25,7 @@ sidebar-category:
       - title: "Anomaly Detection"
         url:  "/anomaly"
   - title: "Projects"
+    children:
       - title: "ECG(심전도) Chagas disease detection"
         url:  "/ECGchagas"
       #- title: "카테고리C"
