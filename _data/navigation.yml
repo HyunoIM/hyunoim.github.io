@@ -22,6 +22,8 @@ sidebar-category:
         url: "/pytorch"
       - title: "cs231n"
         url:  "/cs231n"
+      - title: "Anomaly Detection"
+        url:  "/anomaly"
   - title: "Projects"
       - title: "ECG(심전도) Chagas disease detection"
         url:  "/ECGchagas"
