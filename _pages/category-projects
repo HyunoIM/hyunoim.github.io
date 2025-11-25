@@ -1,7 +1,7 @@
 ---
- title: "Projects"
+ title: "ECG(심전도) Chagas disease detection"
  layout: archive
- permalink: categories/projects
+ permalink: categories/ECGchagas
  author_profile: true
  sidebar:
    nav: "docs"
