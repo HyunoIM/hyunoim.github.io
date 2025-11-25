@@ -22,5 +22,6 @@ sidebar-category:
         url: "/pytorch"
       - title: "cs231n"
         url:  "/cs231n"
+  - title: "Projects"
       #- title: "카테고리C"
       #  url:  "/CategoryC"
