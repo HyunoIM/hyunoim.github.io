@@ -70,13 +70,12 @@ Anomaly Detection의 목적은 이상치인지, 아닌지 판단하는 지도학
 
 ---
 
-## 프로젝트 경험과의 연결
 
 이전에 진행했던 ECG 샤가스 병 진단 프로젝트에서는 정상 심전도 데이터와 샤가스 질병을 가진 심전도 데이터를 가지고 단순 Classification을 진행했기 때문에 엄밀히 말하면 Anomaly Detection이라고는 할 수 없어 보인다. 만약 정상데이터만을 가지고 normal 영역을 추정하여 abnormal을 찾아내는 방식으로 진행했다면 이 때는 Anomaly Detection이 될 수 있다.
 
 ---
 
-## Anomaly Detection의 Tradeoff
+## Tradeoff
 
 Anomaly Detection에서는 Generalization과 Specialization 사이의 Tradeoff가 존재한다. 위에서 언급한 바와 같이 normal의 영역을 추정할 때 normal의 개념을 너무 넓게 일반화하면 이상치를 정상으로 분류할 수 있고 반대로 normal의 개념을 너무 좁게하면 정상을 비정상으로 판단되는 오류가 생길 수 있다. 이 개념은 기초통계에서 배운 1종오류, 2종오류와 같은 개념이다. 이 기술이 사용되는 현장 상황에 따라 정도가 조절되어야 할 것으로 보인다.
 
@@ -84,7 +83,7 @@ Anomaly Detection에서는 Generalization과 Specialization 사이의 Tradeoff�
 
 ---
 
-## Time Series 기반 Anomaly Detection
+## Time Series Anomaly Detection
 
 Anomaly Detection에서도 Time Series data를 깊게 다루는 분야도 있다고 한다. 이전에 진행했던ECG 샤가스 질병 진단 프로젝트, EEG Foundation model 프로젝트도 시계열 1D signal 데이터이다. 시계열 데이터에 적합한 Anomaly Detection 모델들에 대한 연구도 활발하다. Transformer 기반 시계열 이상탐지 모델인 **Anomaly Transformer**, 시계열의 다변량 특성을 그래프로 모델링한 **Graph-Augmented Normalizing Flow (GANF)** 등 다양한 논문이 있는데 이 논문들도 꼭 리뷰할 예정이다.
 
