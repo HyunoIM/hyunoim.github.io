@@ -8,8 +8,6 @@ categories:
   - anomaly
 ---
 
-# Gaussian Distrbution, Mixture of Gaussian Distribution
-
 ## Density based Novelty detection
 
 Density based Novelty detection  
