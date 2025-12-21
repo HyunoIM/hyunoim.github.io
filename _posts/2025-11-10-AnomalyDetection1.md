@@ -30,8 +30,8 @@ Anomaly Detection 분야에서도 딥러닝 분야와 비슷하게 Supervised(�
 ## Novelty vs Outlier
 
 이 분야에서 주로 사용되는 용어 중에 Novelty와 Outlier라는 개념이 있는데 비슷한 의미를 가지지만 조금은 다르게 사용된다고 한다. 어떤 데이터 집합에서 같은 결이지만 다른 데이터와 다른 형태를 가지는 것을 Novelty라고 한다. Novelty는 정상치에 포함된다고 말하기도 하는 것 같다. 그리고 기존 데이터 집합과 완전히 다른 형태의 데이터를 Outlier, 이상치라고 한다. 이와 관련해서는 다양한 관점이 있는 것으로 보이는데, 이정도로 알고 있으면 문제 없을 것 같다.   
-
-<img width="383" height="144" alt="Image" src="https://github.com/user-attachments/assets/b2c4de3b-be0b-493a-b6c7-2eada0c0140f" />  
+     
+<img src="{{ '/assets/images/ad2.png' | relative_url }}" alt="Image" width="250">    
 
 ---
 
@@ -66,7 +66,7 @@ Anomaly Detection의 분류에 다양한 분류가 있다.
 
 Anomaly Detection의 목적은 이상치인지, 아닌지 판단하는 지도학습에 가깝지만 실제 수행 방식은 비지도 학습에 가깝다. 지도학습 관점의 Classification을 예를 들면, 어떠한 데이터를 잘 구별하는 분류 경계면을 찾아내는 과정이다. 하지만 Anomaly Detection에서는 normal data의 normal 영역을 추정하고 이 이외의 데이터는 normal이 아닌 데이터이다. 이때의 데이터는 단순히 abnormal이 아니라 normal이 아닌 다른 class에 속할 수 있는 데이터라고 본다. Anomaly Detection은 대체로 정상 데이터가 비정상 데이터보다 훨씬 많고 정상데이터만 사용한다는 가정을 한다.   
 
-<img width="208" height="133" alt="Image" src="https://github.com/user-attachments/assets/bd32ec4b-d250-421e-b5be-83f9c99904a9" />
+<img src="{{ '/assets/images/ad22.png' | relative_url }}" alt="Image" width="250">   
 
 ---
 
