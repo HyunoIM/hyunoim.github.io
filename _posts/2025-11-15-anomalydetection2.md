@@ -28,7 +28,7 @@ Density based Novelty detection
 
 Gaussian Distrbution 기반의 이상탐지에서는 scale 에 영향을 받지 않고 standardized 된 거리로 판단하기 때문이다.   
 
-<img src="{{ '/assets/images/ad23.png' | relative_url }}" alt="Image" width="700">    
+<img src="{{ '/assets/images/ad23.png' | relative_url }}" alt="Image" width="500">    
 
 다음 식에서 볼 수 있듯이 공분산의 역행렬이 함께 계산되는데, 변수의 variance 마다 기여도가 달라지는 것이다. 변수의 범위는 covariance matrix가 자동으로 보정해준다.
 
