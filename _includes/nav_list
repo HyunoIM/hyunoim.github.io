@@ -15,12 +15,15 @@
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}
-          {% assign category = site.categories.[child.title] | where_exp: "item", "item.hidden != true" %}
-            {%if category.size == null %}
-              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} (0)</a></li>
-            {% else %}
-              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{category.size}})</a></li>
-            {% endif %}
+            {% assign key = child.category_key | default: child.title %}
+            {% assign posts_in_cat = site.categories[key] | where_exp: "item", "item.hidden != true" %}
+            {% assign cnt = posts_in_cat | size %}
+          
+            <li>
+              <a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>
+                {{ child.title }} ({{ cnt }})
+              </a>
+            </li>
           {% endfor %}
         </ul>
         {% endif %}
