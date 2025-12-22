@@ -1,7 +1,7 @@
 ---
 title: "ECG(심전도) Chagas disease detection"
 layout: archive
-permalink: /ECGchagas/
+permalink: /ecgchagas/
 author_profile: true
 sidebar_main: true
 sidebar:
