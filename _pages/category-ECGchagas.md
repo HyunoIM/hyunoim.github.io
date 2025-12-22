@@ -1,7 +1,7 @@
 ---
 title: "ECG(심전도) Chagas disease detection"
 layout: archive
-permalink: ECGchagas
+permalink: /ECGchagas/
 author_profile: true
 sidebar_main: true
 sidebar:
@@ -9,5 +9,5 @@ sidebar:
 ---
 
 
-{% assign posts = site.categories['ECGchagas']%}
+{% assign posts = site.categories['ecgchagas']%}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
