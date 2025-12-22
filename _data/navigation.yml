@@ -29,6 +29,6 @@ sidebar-category:
     children:
       - title: "ECG(심전도) Chagas disease detection"
         url:  "/ECGchagas"
-        category_key: "ecg"
+        category_key: "ecgchagas"
       #- title: "카테고리C"
       #  url:  "/CategoryC"
