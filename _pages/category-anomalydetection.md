@@ -9,5 +9,5 @@ sidebar:
 ---
 
 
-{% assign posts = site.categories['anomaly']%}
+{% assign posts = site.categories['Anomaly Detection']%}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
