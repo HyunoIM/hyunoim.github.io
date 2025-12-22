@@ -24,9 +24,11 @@ sidebar-category:
         url:  "/cs231n"
       - title: "Anomaly Detection"
         url:  "/anomaly"
+        category_key: "anomaly"
   - title: "Projects"
     children:
       - title: "ECG(심전도) Chagas disease detection"
         url:  "/ECGchagas"
+        category_key: "ecg"
       #- title: "카테고리C"
       #  url:  "/CategoryC"
