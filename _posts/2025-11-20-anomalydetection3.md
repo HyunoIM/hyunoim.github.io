@@ -17,7 +17,7 @@ Kernel Density Estimation의 핵심 내용은 다음과 같다.
 
 ---
 
-<img src="{{ '/assets/images/ad31.png' | relative_url }}" alt="Image" width="250">    
+<img src="{{ '/assets/images/ad31.png' | relative_url }}" alt="Image" width="500">    
 
 어떠한 지점의 확률밀도함수는 k/NV로 표현할 수 있다.  
 V는 x를 표현하는 크기, N은 전체 데이터 수, k는 영역 안에 들어있는 객체 수이다.
@@ -110,7 +110,7 @@ $$
 
 영역 상자 R에 들어오면 1, 안 들어오면 0의 가중치를 주는 Uniform kernel도 있지만 어느 정도의 가중치를 주느냐에 따라 다양한 kernel도 존재한다.
 
-<img src="{{ '/assets/images/ad32.png' | relative_url }}" alt="Image" width="250">   
+<img src="{{ '/assets/images/ad32.png' | relative_url }}" alt="Image" width="500">   
 
 ---
 
@@ -127,7 +127,7 @@ $$
 
 정리해보면, 데이터 x로부터 하나의 데이터의 거리를 bandwidth h로 나눠 준 값을 kernel 함수가 얼마나 기여할지 가중치를 계산한다. N개의 모든 데이터로부터 구한 이 값으로부터 평균을 구해주면 이것이 확률밀도이다.
 
-<img src="{{ '/assets/images/ad34.png' | relative_url }}" alt="Image" width="250">    
+<img src="{{ '/assets/images/ad34.png' | relative_url }}" alt="Image" width="600">    
 
 ---
 
