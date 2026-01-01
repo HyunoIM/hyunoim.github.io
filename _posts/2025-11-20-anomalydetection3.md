@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 categories: 
   - anomaly
----x
+---
 
 ## Kernel Density Estimation
 
