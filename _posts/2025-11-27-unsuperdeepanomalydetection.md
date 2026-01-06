@@ -14,7 +14,9 @@ Anomaly detection을 공부하면서 Deep learning을 사용해서는 어떻게 
 
 ---
 
-## Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals
+## Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals   
+
+<img src="{{ '/assets/images/MT0.png' | relative_url }}" alt="Image" width="500">   
 
 Multi-Sensor Time-Series Signals에 대한 비지도학습을 통한 이상탐지는 중요한 문제로 주목받아왔다. Multi-Sensor Time-Series Signals에서는 시공간적(spatial-temporal) 상관관계를 포착하여 일반화된 정상 패턴을 발견하는 것, 그리고 noise data 가 포함된 데이터 속에서 normal과 abnomal을 구분하는 것, 이렇게 두가지가 중요 포인트이다.
 
