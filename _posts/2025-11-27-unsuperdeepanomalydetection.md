@@ -72,7 +72,7 @@ Composite LSTM model, Spatial-Temporal AutoEncoder (STAE)
 
 ## The Proposed Method   
 
-<img src="{{ '/assets/images/MT1.png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/MT1.png' | relative_url }}" alt="Image" width="700">   
 
 제시된 모델 CAE-M의 전체 개요를 살펴보면, 먼저 multi-sensor time-series signal을 Deep Convolutional Autoencoder (CAE)를 통해 저차원의 representation으로 인코딩해주는 과정이 Characterization Network에서 일어난다.
 
@@ -92,7 +92,7 @@ CAE를 통해 얻은 저차원 representation과 reconstruction error를 Attenti
 
 ### Deep feature extraction   
 
-<img src="{{ '/assets/images/MT2.png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/MT2.png' | relative_url }}" alt="Image" width="200">   
 
 CAE는 Encoder 와 Decoder로 이루어져 있는데, Encoder는 입력 행렬 𝑥를 다수의 covolutional과 max-pooling을 통해 은닉 표현 𝑧𝑓로 표현한다.
 
@@ -131,7 +131,7 @@ BiLSTM은 입력을 두 방향으로 처리하는데, 하나는 과거에서 미
 
 ### Linear prediction   
 
-<img src="{{ '/assets/images/MT5.png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/MT5.png' | relative_url }}" alt="Image" width="250">   
 
 Linear prediction을 위한 모델로는 Autoregressive (AR) 모델을 사용하는데, 이는 현재 관측값과 과거 관측값 간의 의존성을 사용하는 회귀 모델이다. 앞서 설명한 non-linear prediction 방법이 더욱 효과적이고 강력하지만 short term modeling에 있어서는 AR model도 뛰어나다.   
 
