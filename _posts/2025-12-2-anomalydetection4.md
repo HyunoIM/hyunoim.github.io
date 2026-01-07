@@ -17,7 +17,7 @@ LOF는 지금까지 알아봤던 밀도 기반의 이상탐지와 비슷하다.
 
 밀도가 높은 영역 C1에 대해서는 거리가 조금 멀게 위치한 객체도 어느정도 고려한다.   
 
-<img src="{{ '/assets/images/AD41.png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/AD41.png' | relative_url }}" alt="Image" width="400">   
 
 밀도가 다른 영역에서 같은 기준으로 outlier를 선정할 수 없다는 것은 당연해 보인다.
 
@@ -54,6 +54,8 @@ d(p,q)
 
 ### 3. Reachability Distance (도달 가능 거리)   
 
+
+
 <img src="{{ '/assets/images/AD44.png' | relative_url }}" alt="Image" width="500">   
 
 p에서 o 까지의 reachability distance는 o의 k-distance와 p와 o사이의 거리 중 큰 값을 의미한다.
@@ -70,9 +72,9 @@ p에서 o 까지의 reachability distance는 o의 k-distance와 p와 o사이의 
 
 p의 k-distance neighborhood 속 객체들 o에서, p와 o 사이의 reachability distance가 분모이다.   
 
-<img src="{{ '/assets/images/AD47png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/AD47png' | relative_url }}" alt="Image" width="550">   
 
-<img src="{{ '/assets/images/AD48png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/AD48png' | relative_url }}" alt="Image" width="550">   
 
 Case를 두개로 나누어 볼 수 있다.
 
@@ -87,14 +89,14 @@ Case를 두개로 나누어 볼 수 있다.
 
 ### 5. Local Outlier Factor   
 
-<img src="{{ '/assets/images/AD49png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/AD49png' | relative_url }}" alt="Image" width="550">   
 
 마지막으로 Local Outlier Factor는 위와 같이 정의된다.  
 결과적으로 밀도가 높은 영역 속에 밀도가 낮은 객체에 대해서는 LOF 값을 크게 해주는 것이다.   
 
-<img src="{{ '/assets/images/AD410png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/AD410png' | relative_url }}" alt="Image" width="550">   
 
-<img src="{{ '/assets/images/AD411png' | relative_url }}" alt="Image" width="500">   
+<img src="{{ '/assets/images/AD411png' | relative_url }}" alt="Image" width="550">   
 
 ---
 
