@@ -8,6 +8,6 @@ sidebar:
   nav: "docs"
 ---
 
-{% assign posts = site.categories['ecgchagas']%}
+{% assign posts = site.categories['VLMAD']%}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
      
