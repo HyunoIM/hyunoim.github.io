@@ -72,9 +72,9 @@ p에서 o 까지의 reachability distance는 o의 k-distance와 p와 o사이의 
 
 p의 k-distance neighborhood 속 객체들 o에서, p와 o 사이의 reachability distance가 분모이다.   
 
-<img src="{{ '/assets/images/AD47png' | relative_url }}" alt="Image" width="550">   
+<img width="491" height="61" alt="Image" src="https://github.com/user-attachments/assets/f093e5f8-dcae-4971-b9c7-28fb69f41ded" />     
 
-<img src="{{ '/assets/images/AD48png' | relative_url }}" alt="Image" width="550">   
+<img width="468" height="151" alt="Image" src="https://github.com/user-attachments/assets/e4324df5-2623-4032-98d4-231a28ad67ab" />   
 
 Case를 두개로 나누어 볼 수 있다.
 
@@ -89,14 +89,14 @@ Case를 두개로 나누어 볼 수 있다.
 
 ### 5. Local Outlier Factor   
 
-<img src="{{ '/assets/images/AD49png' | relative_url }}" alt="Image" width="550">   
+<img width="360" height="64" alt="Image" src="https://github.com/user-attachments/assets/487ae880-8519-4248-821f-4b5533dd102c" />
 
 마지막으로 Local Outlier Factor는 위와 같이 정의된다.  
 결과적으로 밀도가 높은 영역 속에 밀도가 낮은 객체에 대해서는 LOF 값을 크게 해주는 것이다.   
 
-<img src="{{ '/assets/images/AD410png' | relative_url }}" alt="Image" width="550">   
+<img width="468" height="276" alt="Image" src="https://github.com/user-attachments/assets/8944681d-06ec-491b-9212-675b3c3706cb" />   
 
-<img src="{{ '/assets/images/AD411png' | relative_url }}" alt="Image" width="550">   
+<img width="289" height="248" alt="Image" src="https://github.com/user-attachments/assets/dceaefe3-af77-42a8-8d8f-bb07574eba77" />   
 
 ---
 
