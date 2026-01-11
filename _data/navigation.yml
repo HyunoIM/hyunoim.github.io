@@ -30,5 +30,8 @@ sidebar-category:
       - title: "ECG(심전도) Chagas disease detection"
         url:  "/ECGchagas"
         category_key: "ecgchagas"
+      - title: "VLM Anomaly Detection"
+        url:  "/VLMAD"
+        category_key: "VLMAD"
       #- title: "카테고리C"
       #  url:  "/CategoryC"
